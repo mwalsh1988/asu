@@ -1,0 +1,17 @@
+Material Design Icons: football-helmet
+Source: https://github.com/Templarian/MaterialDesign-SVG/blob/master/svg/football-helmet.svg
+Project: https://pictogrammers.com/library/mdi/
+License: Apache License 2.0 (see APACHE-2.0-LICENSE.txt)
+Changes: maroon fill and 48px dimensions for the ONIT pitch site.
+
+Pictogrammers Free License
+--------------------------
+
+This icon collection is released as free, open source, and GPL friendly by
+the Pictogrammers icon group. You may use it for commercial projects,
+open source projects, or anything really.
+
+Icons: Apache 2.0
+Some of the icons are redistributed under the Apache 2.0 license. All other
+icons are either redistributed under their respective licenses or are
+distributed under the Apache 2.0 license.
