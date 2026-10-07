@@ -1,6 +1,7 @@
 # Arizona State Pitch Site
 
 Created October 6, 2026 from the current `mwalsh1988/unc` pitch site.
+Uploaded to the public `mwalsh1988/asu` repository on October 7, 2026.
 
 This is an independent working draft focused on trading cards as a sellable
 asset for Arizona State's sponsorships team and its rights partners.
@@ -60,12 +61,12 @@ the filesystem can cause YouTube Error 153.
 Target repository: https://github.com/mwalsh1988/asu
 Custom domain: https://sundevils.onitathlete.com
 
-Publish with GitHub Pages from the `main` branch and `/(root)` folder.
+GitHub Pages is configured to publish from the `main` branch and `/(root)` folder.
 The `CNAME` file contains `sundevils.onitathlete.com`, and `.nojekyll` makes
 GitHub serve the static files directly. Also set the custom domain in
 the repository's Settings > Pages before changing DNS.
 
-At the DNS host for `onitathlete.com`, add:
+At the DNS host for `onitathlete.com`, configure:
 
 | Type | Name | Target |
 | --- | --- | --- |
@@ -73,6 +74,9 @@ At the DNS host for `onitathlete.com`, add:
 
 Do not include the repository name or `https://` in the DNS target.
 Do not change the root domain, `www` or any other site's DNS records.
+If `sundevils` has an existing A or AAAA record, replace that subdomain's
+record with the CNAME above. GitHub's initial check reported an A record;
+the custom domain is not live until DNS points to GitHub Pages.
 Enable Enforce HTTPS in GitHub Pages once DNS resolves and GitHub's
 certificate is ready. DNS and certificate changes can take up to 24 hours.
 
